@@ -1,0 +1,27 @@
+# 音声ファイル（ローカル保持のみ）
+courses/*/raw/audio/
+
+# 一時・作業ファイル
+courses/*/claude/scratch/
+**/.DS_Store
+*.tmp
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.AppleDouble
+.LSOverride
+
+.claude/worktrees/
+
+# 実授業データはこの public repo に入れない（example-course の構造サンプルのみ track）
+courses/*
+!courses/example-course/

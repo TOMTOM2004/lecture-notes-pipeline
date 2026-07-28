@@ -1,0 +1,4 @@
+opendataloader-pdf
+openai-whisper
+torch
+anthropic
